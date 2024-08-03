@@ -1,0 +1,107 @@
+.sidebar{
+    background-color: #f0f0f0;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+}
+
+.slidebtn{
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    border-color: transparent;
+    font-size: 30px;
+    padding-top: 3px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+.slidebtn:hover{
+    background-color: white;
+}
+
+.newchatbtn{
+    height: 45px;
+    width: 45px;
+    background-color: #e2dfdf;
+    cursor: pointer;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    border-radius: 50%;
+    border-color: transparent;
+    font-size: 30px;
+    padding-top: 2.5px;
+    padding-left: 2px;
+    transition: 0.5s;
+}   
+
+.newchatbtn:hover{
+    background-color: white;
+}
+
+.bottombtns{
+    position: absolute;
+    bottom: 130px;
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    right: 0px;
+}
+
+
+.helpbtn, .historybtn, .settingbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-right: 20px;
+    width: 80%;
+    height: auto;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    line-height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.helpbtn:hover{
+    background-color: #ffffff;
+}
+.historybtn:hover{
+    background-color: #ffffff;
+}
+.settingbtn:hover{
+    background-color: #ffffff;
+}
+
+.helptext{
+    position: relative;
+    right: 90px;
+}
+.historytext{
+    position: relative;
+    right: 70px;
+}
+.settingtext{
+    position: relative;
+    right: 65px
+}
+.helpicon, .settingicon{
+    
+    font-size: 22px;
+}
+
+.historyicon{
+    font-size: 22px;
+}
